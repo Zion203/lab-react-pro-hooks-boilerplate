@@ -1,4 +1,3 @@
-
 import React,{useEffect,useState} from 'react';
 import './App.css';
 
@@ -18,7 +17,7 @@ function App() {
   const delayFunction = ()=> {
     console.log("Delay Function Ran")
     for(let index=0; index<LARGE_NUMBER; index++){};
-    return value+2;
+    return value*2;
   
   }
 
